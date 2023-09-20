@@ -1,0 +1,1069 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.burger{
+    display: none;
+    flex-direction: column;
+    
+}
+
+.line{
+    color: white;
+    margin-top: 3px;
+    width: 23px;
+    height: 4px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    background-color: yellow;
+    /* height: 5000px; */
+}
+
+
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0%;
+    position: fixed;
+    display: flex;
+
+}
+
+
+.blank {
+    /* background-color: black; */
+    width: 53%;
+    margin: 0px 44px 0 8px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 13px;
+}
+
+ul li {
+    padding: 0 47px 0 0;
+}
+
+ul li a {
+    font-size: 1.6vw;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    /* transform: 0.2s; */
+}
+
+ul li a:hover {
+    cursor: pointer;
+    letter-spacing: 0.2px;
+}
+
+
+
+
+.section-back {
+    background: black;
+    width: 53%;
+    height: 15%;
+    /* border: 2px solid red; */
+    /* margin: 0 0 0 8px; */
+}
+
+.back-1 {
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    padding: 100px 0 0 0;
+    /* border: 2px solid blue; */
+    flex-wrap: wrap;
+}
+
+h2 {
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: rgb(194, 189, 189);
+    color: black;
+    font-size: 6vw;
+    margin: 0px 0 0 55px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -4px;
+}
+
+.white {
+    color: white;
+    font-size: 5.6vw;
+    margin: 8px 0 0 21px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -7px;
+}
+
+.img {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    right: -444px;
+    bottom: 162px;
+}
+
+.btn-1 {
+    padding: 6px 26px 6px 26px;
+    background-color: purple;
+    color: wheat;
+    border: none;
+    width: 86%;
+    /* left: 12px; */
+    margin: 21px 0 0 -1px;
+    text-align: center;
+    font-size: 19px;
+    transition: 0.1s;
+}
+
+.img a:hover {
+    cursor: pointer;
+    letter-spacing: 0.05vw;
+}
+
+#element {
+    -webkit-text-stroke: 2.5px;
+    -webkit-text-stroke-color: rgb(194, 189, 189);
+    color: black;
+    font-size: 6vw;
+    margin: 0px 0 0 55px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -5px;
+}
+
+
+.typed-cursor.typed-cursor--blink {
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+    color: white;
+    font-size: 6vw;
+}
+
+.typed-cursor {
+    opacity: 1;
+    color: white;
+    font-size: 6vw;
+}
+
+.para-1 {
+    /* border: 2px solid violet; */
+    color: white;
+    font-size: 1.9vw;
+    margin: 22px 0 0 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.btn-2 {
+    background-color: yellow;
+    color: black;
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px auto 0 auto;
+    border-radius: 9px;
+    width: 12.9vw;
+    font-size: 1.69999vw;
+    display: flex;
+    justify-content: center;
+    transform: 0.3s;
+}
+
+.btn-2 a{
+    color: black;
+}
+
+.btn-2 :hover{
+    cursor: pointer;
+    letter-spacing: 0.05vw;
+ 
+}
+
+
+.section-2 {
+    background: black;
+    width: 52.4vw;
+    height: 120vh;
+    /* border: 2px solid red; */
+}
+
+.section-2 h1 {
+    color: white;
+    font-size: 5.4vw;
+    padding: 300px 0 0 224px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -3px;
+}
+
+.section-2 p {
+    color: white;
+    padding: 3px 0 0 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 50px 0 0 81px;
+    font-size: 3vw;
+}
+
+.img-1 {
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    float: right;
+    position: relative;
+    right: -484px;
+    bottom: 162px;
+}
+
+.img-1 img{
+    width: 24vw;
+    height: 37vh;
+}
+
+.section-3 {
+    /* background: black; */
+    /* width: 52.4vw; */
+    height: 150vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+.left {
+    background-color: black;
+    width: 52.4vw;
+    height: 125vh;
+}
+
+.right{
+    background-color: yellow;
+    width: 52.4vw;
+    
+}
+
+.left h1 {
+    color: yellow;
+    font-size: 10vw;
+    margin: 36px 0 0 75px;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -4px;
+}
+
+.box-1 {
+    padding: 7px;
+    display: flex;
+    border: 4px solid #e7e700;
+    border-radius: 12px;
+    /* outline: 86px yellow; */
+    background-color: black;
+    color: white;
+    height: 40vh;
+    width: 53vw;
+    float: left;
+    margin: -548px 0 52px 429px;
+}
+
+.box-1 p{
+    font-size: 2vw;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.contacts img{
+    width: 7vw;
+    height: 7wh;
+}
+
+
+.section-4{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.section-4 h1 {
+    color: black;
+    font-size: 6vw;
+    /* margin: 25vh 0 0 0; */
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: -4px;
+}
+
+.section-4 p{
+    font-size: 1.5vw;
+    font-family: 'Fira Sans', sans-serif;
+    color: black;
+}
+
+.section-4 img {
+    margin: 50px 0 0 0;
+}
+
+#insta img{
+    width: 7vw;
+    height: 14vh;
+}
+#insta:hover {
+    transform: scaleX(1);
+    cursor: pointer;
+}
+
+.footer{
+    height: 15px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* Your CSS rules for large screens go here */
+    /* .element {
+        overflow-x: hidden;
+      } */
+      *{
+        margin: 0;
+        padding: 0;
+        /* line-height: 0%; */
+      }
+
+      .h-nav{
+       height: 50px;
+       z-index: 1;
+       background-color: black;
+      }
+
+     
+.ul{
+    z-index: 111;
+    background-color: black;
+    transition: all 0.7s ease-in-out;
+}
+      .ul li{
+        padding: 10px 0 0 0;
+      }
+
+      .v-class{
+           opacity: 0;
+      }
+
+   html, body{
+        width: 100%;
+        overflow-x: hidden;
+       margin: 0;
+       padding: 0;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+        .ul li a {
+        color: white;
+    }
+    .burger {
+        right: 4%;
+        top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+    }
+
+    .burger:hover{
+            cursor: pointer;
+    }
+    .navbar {
+        display: block;
+    }
+    .line{
+        margin: 1.2px;
+        border: 1px solid white;
+        width: 23px;
+        height: 3px;
+    }
+
+    .blank{
+        display: none;
+    }
+
+    .ul {
+     
+        flex-direction: column;
+    }
+
+    .section-back{
+        /* display: block; */
+        height: 137vh;
+        width: 100%;
+        z-index: -1;
+        position: relative;;
+    }
+
+    .back-1 {
+        padding: 0 0 0 0;
+        position: relative;
+        display: block;
+        left: 19vw;
+        top: 16vw;
+        z-index: 1;
+    }
+.white {
+
+    letter-spacing: 0px;
+}
+
+.para-1{
+    position: relative;
+    left: 23vw;
+    top: 17vw;
+}
+.img {
+    flex-direction: column;
+    position: relative;
+    right: -289px;
+    bottom: 20px;
+    float: left ;
+    display: none;
+}
+
+.btn-1{
+    left: 0;
+    margin: 0;
+}
+.btn-2 {
+    top: 20vw;
+    left: -17vw;
+    position: relative;
+}
+
+.img-1{
+    display: none;
+}
+
+.section-2{
+    width: 100%;
+    background-color: yellow;
+}
+
+.section-2 h1{
+    display: flex;
+    padding: 300px 0 0 0px;
+    justify-content: center;
+    color: black;
+}
+
+.section-2 p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 50px 0 0 0px;
+}
+
+.section-3 {
+    background: black;
+    width: 100%;
+    height: 130vh;}
+
+    .box-1{
+        width: 53vw;
+        float: left;
+        margin: -504px 0 52px 351px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* Your CSS rules for medium screens go here */
+    *{
+        margin: 0;
+        padding: 0;
+        /* line-height: 0%; */
+      }
+
+      .h-nav{
+       height: 50px;
+       z-index: 1;
+       background-color: black;
+      }
+
+     
+.ul{
+    z-index: 111;
+    background-color: black;
+    transition: all 0.7s ease-in-out;
+}
+      .ul li{
+        padding: 10px 0 0 0;
+      }
+
+      .v-class{
+           opacity: 0;
+      }
+
+   html, body{
+        width: 100%;
+        overflow-x: hidden;
+       margin: 0;
+       padding: 0;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+        .ul li a {
+        color: white;
+    }
+    .burger {
+        right: 4%;
+        top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+    }
+
+    .burger:hover{
+            cursor: pointer;
+    }
+    .navbar {
+        display: block;
+    }
+    .line{
+        margin: 1.2px;
+        border: 1px solid white;
+        width: 23px;
+        height: 3px;
+    }
+
+    .blank{
+        display: none;
+    }
+
+    .ul {
+     
+        flex-direction: column;
+    }
+
+    .section-back{
+        /* display: block; */
+        
+    height: 105vh;
+
+        width: 100%;
+        z-index: -1;
+        position: relative;;
+    }
+
+    .back-1 {
+        padding: 0 0 0 0;
+        position: relative;
+        display: block;
+        left: 19vw;
+        top: 16vw;
+        z-index: 1;
+    }
+.white {
+
+    letter-spacing: 0px;
+}
+
+.para-1{
+    position: relative;
+    left: 23vw;
+    top: 17vw;
+}
+.img {
+    flex-direction: column;
+    position: relative;
+    right: -289px;
+    bottom: 20px;
+    float: left ;
+    display: none;
+}
+
+.btn-1{
+    left: 0;
+    margin: 0;
+}
+.btn-2 {
+    top: 20vw;
+    left: -17vw;
+    position: relative;
+}
+
+.img-1{
+    display: none;
+}
+
+.section-2{
+    width: 100%;
+    background-color: yellow;
+}
+
+.section-2 h1{
+    display: flex;
+    padding: 300px 0 0 0px;
+    justify-content: center;
+    color: black;
+}
+
+.section-2 p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 50px 0 0 0px;
+}
+
+.section-3 {
+    background: black;
+    width: 100%;
+    height: 130vh;}
+
+    .box-1{
+        width: 53vw;
+        float: left;
+        
+    margin: -507px 0 52px 30%;
+
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* Your CSS rules for small screens go here */
+ 
+    *{
+        margin: 0;
+        padding: 0;
+        /* line-height: 0%; */
+      }
+
+      .h-nav{
+       height: 50px;
+       z-index: 1;
+       background-color: black;
+      }
+
+     
+.ul{
+    z-index: 111;
+    background-color: black;
+    transition: all 0.7s ease-in-out;
+}
+      .ul li{
+        padding: 10px 0 0 0;
+      }
+
+      .v-class{
+           opacity: 0;
+      }
+
+   html, body{
+        width: 100%;
+        overflow-x: hidden;
+       margin: 0;
+       padding: 0;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+        .ul li a {
+        color: white;
+    }
+    .burger {
+        right: 4%;
+        top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+    }
+
+    .burger:hover{
+            cursor: pointer;
+    }
+    .navbar {
+        display: block;
+    }
+    .line{
+        margin: 1.2px;
+        border: 1px solid white;
+        width: 23px;
+        height: 3px;
+    }
+
+    .blank{
+        display: none;
+    }
+
+    .ul {
+     
+        flex-direction: column;
+    }
+
+    .section-back{
+        /* display: block; */
+        height: 82vh;
+
+        width: 100%;
+        z-index: -1;
+        position: relative;;
+    }
+
+    .back-1 {
+        padding: 0 0 0 0;
+        position: relative;
+        display: block;
+        left: 19vw;
+        top: 16vw;
+        z-index: 1;
+    }
+.white {
+
+    letter-spacing: 0px;
+}
+
+.para-1{
+    position: relative;
+    left: 23vw;
+    top: 17vw;
+}
+.img {
+    flex-direction: column;
+    position: relative;
+    right: -289px;
+    bottom: 20px;
+    float: left ;
+    display: none;
+}
+
+.btn-1{
+    left: 0;
+    margin: 0;
+}
+.btn-2 {
+    top: 20vw;
+    left: -17vw;
+    position: relative;
+}
+
+.img-1{
+    display: none;
+}
+
+.section-2{
+    width: 100%;
+    background-color: yellow;
+}
+
+.section-2 h1{
+    display: flex;
+    padding: 300px 0 0 0px;
+    justify-content: center;
+    color: black;
+}
+
+.section-2 p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 50px 0 0 0px;
+}
+
+.section-3 {
+    background: black;
+    width: 100%;
+    height: 130vh;}
+
+    .box-1{
+        width: 53vw;
+        float: left;
+        
+    margin: -507px 0 52px 30%;
+
+    }
+
+    #insta img{
+        height: 11vh;
+    }
+
+    #element{
+        letter-spacing: -3px ;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 575.98px) {
+    /* Your CSS rules for extra small screens go here */
+  
+    *{
+        margin: 0;
+        padding: 0;
+        /* line-height: 0%; */
+      }
+
+      .h-nav{
+       height: 50px;
+       z-index: 1;
+       background-color: black;
+      }
+
+     
+.ul{
+    z-index: 111;
+    background-color: black;
+    transition: all 0.7s ease-in-out;
+}
+      .ul li{
+        padding: 10px 0 0 0;
+      }
+
+      .v-class{
+           opacity: 0;
+      }
+
+   html, body{
+        width: 100%;
+        overflow-x: hidden;
+       margin: 0;
+       padding: 0;
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+        .ul li a {
+        color: white;
+        font-size: 3vw;
+    }
+    .burger {
+        right: 4%;
+        top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        position: fixed;
+    }
+
+    .burger:hover{
+            cursor: pointer;
+    }
+    .navbar {
+        display: block;
+    }
+    .line{
+        margin: 1.2px;
+        border: 1px solid white;
+        width: 23px;
+        height: 3px;
+    }
+
+    .blank{
+        display: none;
+    }
+
+    .ul {
+     
+        flex-direction: column;
+    }
+
+    .section-back{
+        /* display: block; */
+        height: 57vh;
+
+        width: 100%;
+        z-index: -1;
+        position: relative;;
+    }
+
+    .back-1 {
+        padding: 0 0 0 0;
+        position: relative;
+        display: block;
+        left: 19vw;
+        top: 16vw;
+        z-index: 1;
+    }
+.white {
+
+    letter-spacing: 0px;
+}
+
+.para-1{
+    position: relative;
+    left: 23vw;
+    top: 17vw;
+}
+
+h2{
+    color: grey;
+    letter-spacing: -1px;
+}
+.img {
+    flex-direction: column;
+    position: relative;
+    right: -289px;
+    bottom: 20px;
+    float: left ;
+    display: none;
+}
+
+.btn-1{
+    left: 0;
+    margin: 0;
+}
+.btn-2 {
+    top: 20vw;
+    left: -17vw;
+    position: relative;
+}
+
+.img-1{
+    display: none;
+}
+
+.section-2{
+    width: 100%;
+    background-color: yellow;
+}
+
+.section-2 h1{
+    display: flex;
+    padding: 300px 0 0 0px;
+    justify-content: center;
+    color: black;
+}
+
+.section-2 p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin: 50px 0 0 0px;
+}
+
+.section-3 {
+    background: black;
+    width: 100%;
+    height: 130vh;}
+
+    .box-1{
+        width: 53vw;
+        float: left;
+        height: 16vh;
+        
+    margin: -507px 0 52px 30%;
+
+    }
+
+    #insta img{
+        height: 7vh;
+    }
+
+    #element{
+      
+    letter-spacing: 0px;
+    -webkit-text-stroke: 1.5px ;
+    color: black;
+    -webkit-text-stroke-color: rgb(194, 189, 189);
+
+    }
+
+    .left h1{
+        
+    margin: 6% 0 0 13%;
+
+    }
+
+    .box-1 img {
+        height: 16vh;
+        width: 13vh;
+    }
+
+    .section-4 h1{
+        letter-spacing: -1px;
+    }
+
+    .section-4 p {
+        font-size: 3vw;
+    }
+}
